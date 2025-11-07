@@ -13,9 +13,7 @@ import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://resume-generator-ten-tau.vercel.app",
-    "https://resume-generator-git-main-anweshas-projects-e9dd3731.vercel.app",
-    "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class ResumeController {
 	
 	private final ResumeService resumeService;
